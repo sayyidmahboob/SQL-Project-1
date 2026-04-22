@@ -1,22 +1,74 @@
-# SQL Project 1
+# Football Analytics Case Study
 
 ## Overview
-This project involves creating and managing SQL databases, focusing on data manipulation, retrieval, and analysis.
+This project analyzes football player and team data using SQL and Python to understand how performance and financial decisions impact results.
 
-## Features
-- Database Creation
-- CRUD Operations
-- Query Execution
+The goal is to demonstrate how data can help teams:
+- Identify top-performing players
+- Evaluate value for money
+- Optimize budget usage
+- Improve decision-making
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sayyidmahboob/SQL-Project-1.git
-   ```
-2. Open the SQL files in a database management tool to execute the queries.
+---
 
-## Usage
-Run the SQL scripts in your preferred database.
+## Problem Statement
+Football teams often spend heavily on players without clearly measuring their impact on performance.
 
-## License
-This project is licensed under the MIT License.
+This project answers:
+> How can a team maximize performance while using its budget efficiently?
+
+---
+
+## Dataset
+The dataset is synthetically created and includes three tables:
+
+- **Players**: goals, assists, matches played, salary  
+- **Teams**: wins, losses, draws, budget, league position  
+- **Transfers**: player movement and transfer fees  
+
+---
+
+## Approach
+The analysis is performed using SQL queries inside a Jupyter/Colab notebook.
+
+Key analyses include:
+- Top goal scorers
+- Value for money players (goals/salary)
+- Team performance summary
+- Underperforming players
+- Budget efficiency (wins vs budget)
+
+---
+
+## Dashboard
+Basic visualizations are created using Matplotlib to highlight:
+- Top players
+- Budget vs performance
+- Player efficiency
+
+---
+
+## Key Insights
+- A small number of players contribute most of the goals  
+- Higher salary does not always mean better performance  
+- Some teams achieve strong results with lower budgets  
+- Underperforming players can be identified using simple metrics  
+
+---
+
+## Tech Stack
+- SQL (SQLite)
+- Python (Pandas, Matplotlib)
+- Google Colab
+
+---
+
+## How to Run
+1. Open the notebook in Google Colab  
+2. Run all cells sequentially  
+3. View results and charts  
+
+---
+
+## Conclusion
+This project shows that data-driven decision-making can help football teams improve performance while controlling costs.
